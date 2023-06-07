@@ -22,6 +22,18 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
 }
+.successContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 55vh;
+    width: 30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+}
 .left{
   display: flex;
   flex-direction: column;
