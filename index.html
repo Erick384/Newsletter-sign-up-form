@@ -1,65 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="left">
-      <h2>Stay updated!</h2>
-      <div>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        <li>
-          <input type="radio" name="" id="">
-        </li>
-      </div>
-  <!-- Sign-up form start -->
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <link rel="stylesheet" href="style.css" />
 
-  
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="header">
+          <h1>Stay updated!</h1>
+        </div>
+
+        <div>
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        </div>
+
+        <div class="select">
+          <div>
+            <input type="radio" name="" id="" />
+            <span> Product discovery and building what matters </span>
+          </div>
+
+          <div>
+            <input type="radio" name="" id="" />
+            <span> Measuring to ensure updates are a success </span>
+          </div>
+
+          <div>
+            <input type="radio" name="" id="" />
+            <span> And much more! </span>
+          </div>
+        </div>
 
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+        <div class="subscribe">
+          <div class="email">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="emails" placeholder="email@company.com" required>
+          </div>
 
-  Email address
-  email@company.com
+          <div class="button">
+            <button>Subscribe to monthly newsletter</button>
+          </div>
+        </div>
 
-  Subscribe to monthly newsletter
 
-  <!-- Sign-up form end -->
+        <!-- Success message start -->
 
-  <!-- Success message start -->
-
-  <!-- Thanks for subscribing!
+        <!-- Thanks for subscribing!
 
   A confirmation email has been sent to ash@loremcompany.com. 
   Please open it and click the button inside to confirm your subscription.
 
   Dismiss message -->
 
-  <!-- Success message end -->
-  
+        <!-- Success message end -->
+      </div>
+      <div class="right"></div>
     </div>
-    <div class="right"></div>
-  </div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-  <script src="./script.js"></script>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
